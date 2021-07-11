@@ -1,0 +1,28 @@
+1. Create your entities
+2. Finalize relationship between entities
+3. Configure the DB
+
+
+User - Order
+1 : M
+
+Order - Product
+1 : M
+
+
+
+
+REST APIs
+Controllers
+    |
+Service
+    |
+DAO/Repository(data access objects)  -> done
+    |
+Database ( DB setup -> Entities and mappings )
+
+
+We will connect back at : 8:20
+
+
+POST , GET , PUT , DELETE
